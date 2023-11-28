@@ -437,4 +437,11 @@ config MACH_XIAOMI_OXYGEN
 	  Support for the Xiaomi Max 2 platform
 	  which is based on QCOM MSM8953 chipset.
 
+config CONFIG_MACH_TENOR_G
+	bool  "Tenor platform"
+	depends on ARCH_MSM8953
+	help
+	  Support for the Tenor G platform
+	  which is based on QCOM MSM8953 chipset.
+
 endmenu
